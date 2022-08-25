@@ -3,7 +3,7 @@ import ColorfulMessage from "./components/ColorfulMessage";
 
 const App = () => {
   const onClickCountUp = () => {
-    setNum();
+    setNum(num + 1);
   };
   const [num, setNum] = useState(0);
 
